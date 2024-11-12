@@ -1,0 +1,22 @@
+
+body{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    height: 100vh;
+}
+.section {
+    flex: 1; 
+    width: 100%;
+}
+.section-1 { background-color: rgba(121, 125, 142, 0.488); }
+.section-2 { background-color: rgba(109, 116, 145, 0.488); }
+.section-3 { background-color: rgba(121, 125, 142, 0.488); }
+
+.container{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: rgba(58, 58, 176, 0.488);
+    position: calc();
+} 
